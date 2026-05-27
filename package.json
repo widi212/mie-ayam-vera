@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"node server/index.js\""
+  },
+  "dependencies": {
+    "recharts": "^3.8.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
